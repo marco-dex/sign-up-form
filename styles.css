@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.left {
+    flex: 1 0 auto;
+    background-image: url(images/plants-halie-west.avif);
+    background-position: center;
+    background-size: cover;
+    width: 40vw;
+}
+
+.banner{
+    position: relative;
+    top: 250px;
+    background-color: rgb(0,0,0,0.4);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    color: white;
+    font-size: 5rem;
+}
+
+img {
+    height: 80%;
+    margin: 30px;
+}
+
+.right {
+    flex: 1 1 auto;
+    background-color: lightgray;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero {
+    padding: 30px;
+}
+
+.form-heading { 
+    margin: 30px 40px;
+    margin-bottom: 0;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 2px 5px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: white;
+}
+
+.field {
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field>p {
+    margin-top: 4px;
+    color: red;
+}
+
+input {
+    height: 30px;
+    border-radius: 6px;
+    padding: 10px;  
+    border: 1px black solid ;
+}
+
+input:focus {
+    box-shadow: 1px 1px 3px;
+    outline:none;
+    border: 1px blue solid;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 20px 50px;
+    background-color: green;
+    border: 1px black solid;
+    border-radius: 4px;
+    color: white;
+}
+
+button {
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.4);
+}
+
+button:active {
+    box-shadow: 0 0 0;
+}
+
+#footer-text {
+    margin-left: 40px;
+    font-size: 1.2rem;
+}
+
+.footer {
+    display:flex;
+    flex-direction: column;
+}

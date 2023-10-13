@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head> 
+<body>
+   <div class="content">
+        <div class="left">
+            <div class="banner">
+                <img src="images/odin-lined.png" alt="">
+                <h1 id="logo">ODIN</h1>
+            </div>
+        </div>
+        <div class="right">
+            <div class="hero">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate dignissimos nam ipsum laborum odio. Officiis nobis earum dolor animi.</h1>
+                <h1>Sign up below</h1>
+            </div>
+            <div class="form-section">
+                <h2 class="form-heading">Let's do this</h2>
+                <form action="#">
+                    
+                    <div class="field">
+                        <label>FIRST NAME</label>
+                        <input id="first-name" type="text">
+                    </div>
+                    <div class="field">
+                        <label>LAST NAME</label>
+                        <input id="last-name" type="text">
+                    </div>
+                    <div class="field">
+                        <label>EMAIL</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div class="field">
+                        <label>PHONE</label>
+                        <input id="phone" type="phone">
+                    </div>
+                    <div class="field">
+                        <label>PASSWORD *</label>
+                        <input class="error" id="password" type="password" required>
+                        <p>* Passwords do not match</p>
+                    </div>
+                    <div class="field">
+                        <label>CONFIRM PASSWORD *</label>
+                        <input class="error" id="confirm-password" type="password" required>
+                        <p>* Passwords do not match</p>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <button>SUBMIT</button>
+                <p id="footer-text">Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
